@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet" type="text/css">    
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container-fluid pt-2 pb-2">
+        <div class="row">
+            <div class="col">
+                <p id="day" class="fs-5 fw-light mb-0"></p>
+                <p id="month" class="fs-5 fw-light mb-0"></p>
+                <p class="fs-2">
+                    <span id="main"></span>
+                    <span><img id="myImage" alt="weather icon"></span>
+                </p>
+            </div>
+            <div class="col text-end fs-1">
+                <p id="city" class="mb-0"></p>
+                <p id="country"></p>
+            </div>
+        </div>
+
+        <div class="row fixed-row-bottom">
+            <div class="col fs-1">
+                <p class="mb-0" >
+                    <span id="temperature"></span>
+                    <span> &deg</span>
+                    <span id="tempUnit">C</span>
+                </p>
+            </div>
+        </div>
+
+    </div>   
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="index.js"></script>
+</html>

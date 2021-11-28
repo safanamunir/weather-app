@@ -1,0 +1,14 @@
+.container-fluid{
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: bold;
+    background-image: url(https://e3.365dm.com/21/06/768x432/skynews-sun-weather_5415028.jpg?20210614155058);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.fixed-row-bottom { 
+    position: fixed; 
+    bottom: 0;
+}
